@@ -1,0 +1,4 @@
+Going over the broad range of Wireless Ethernet protocols for various use cases/ assigned priveliges based on roles permissions or rights
+Problem being at hand is to properply get access to the proper users  to perform a certain task and simplify the assigning 
+The problem was resolved by grouping a set of  users taking the hybrid approach to easy manage access by giving a certain group the right permissions versus one by one to save time and be efficient
+implement role based access control
