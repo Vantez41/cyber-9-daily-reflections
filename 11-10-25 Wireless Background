@@ -1,0 +1,4 @@
+Learning the 802.Family and the different ports used for certain protocols,Channel Management
+The obstacle the channel management can bring within the Wifi Standards is being able to cover the amount of range to deliver data at the right speed. Many devices are able to operate on 2.4ghz which can cause latency or collisions
+To properly use the bandwith and channels frequencies we seperated the devices are needed to operate on 2.4ghz we seperated from 5.ghz so performance would be better
+implemented Wifi 6 which is a dual band router
