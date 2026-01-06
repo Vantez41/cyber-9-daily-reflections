@@ -1,0 +1,4 @@
+studying the IAM authentication model ,Central Authentication servers(CAS) and their types.
+the difficulty that has arisen from this particular situation is figuring out what Authentication is best to use. Being able to manage users keys and access resources
+private key infastructure(PKI) certificate authority (CA) ex: GO DADDY holds and manange private keys allows a more efficient way to provide management for data for users
+TACACS+ would be the best way to encrypt servers and deliver the proper service for that particular 
