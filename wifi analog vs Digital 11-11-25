@@ -1,0 +1,4 @@
+Adapting  to the different ways of transmitting data through analog and digital wifi frequencies
+being able to properly segment the frequency broadbands within data transmission through the same cable or medium.
+To resolve these reoccuring ostacles using a Time Division Multiplexing to transmit digital signals to multiple users over one link based on time slots or amont of data or priority. also via Statistical multiplexing which determines priority by workload.
+So we implemented each user to its own Frequency channel that is non-overlapping and constructed the broadband that fits the data trasmission
