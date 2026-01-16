@@ -1,0 +1,4 @@
+compare and contrast cryptographic algorithms
+explain the difference between public key infastructure and digital certificates
+there are three algorithms Hash,Symmetric and asymmetric and digital signatures
+Symmetric consists of single key encrypts and decrypts, asymmetric uses a public and private key pair, Hashing is use for integrity and digital signatures signs hash message with private key and validate with public key
