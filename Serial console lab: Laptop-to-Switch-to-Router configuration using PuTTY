@@ -1,0 +1,4 @@
+Network device initial deployment using serial console access.
+Laptop connects to a Cisco switch via USB-to-Serial and PuTTY.
+Switch and router are configured with basic IP settings.
+Connectivity is verified to simulate real-world network setup.
