@@ -1,0 +1,9 @@
+Today I practiced working with REST APIs.
+
+I learned how clients send requests to an API and how servers return responses.  
+I created simple examples of GET and POST requests to show how data is retrieved and how new data is sent to a server.
+
+This helped me understand:
+- How API requests work
+- How servers respond with data
+- Common HTTP status codes
