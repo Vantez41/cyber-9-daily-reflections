@@ -1,0 +1,8 @@
+FIFO: Overwrites oldest backup first.  
+GFS: Daily (Son), Weekly (Father), Monthly (Grandfather).  
+Tower of Hanoi: Multi-set rotation for long-term retention.  
+Media Rotation: Protects backups from loss and overwriting.
+
+Full Backup: Copies all data every time; longest time, most storage.  
+Incremental Backup: Copies changes since last backup; fastest, least storage; restore = full + incrementals.  
+Differential Backup: Copies changes since last full; medium speed/storage; restore = full + latest differential.
