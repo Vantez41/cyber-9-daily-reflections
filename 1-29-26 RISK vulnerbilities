@@ -1,0 +1,7 @@
+- **EOL**: Product no longer sold/updated → security risk.  
+- **EOSL**: Vendor stops all support → must replace or isolate.  
+- **Legacy Platform**: Old system still in use → often vulnerable.  
+- **VM Sprawl**: Too many VMs → harder to manage, bigger attack surface.  
+- **VM Escape**: Attack breaks VM → host/system compromised.  
+- **Jailbreaking**: Removes device restrictions → security weakened.  
+- **Side Loading**: Install apps outside store → higher malware risk.
