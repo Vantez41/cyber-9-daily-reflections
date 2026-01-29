@@ -1,0 +1,7 @@
+Microservices split an application into small independent services.
+
+Each service runs inside its own container with required dependencies.
+
+Containers allow fast deployment, scaling, and consistent environments.
+
+This setup improves reliability, flexibility, and system performance.
