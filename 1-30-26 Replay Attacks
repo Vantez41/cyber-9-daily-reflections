@@ -1,0 +1,4 @@
+Authentication data proves user identity to a system.
+Common examples include cookies, tokens, and session IDs.
+If stolen, attackers can impersonate users without credentials.
+Protecting authentication data is critical to preventing replay attacks.
