@@ -1,0 +1,4 @@
+SQL injection occurs when user input alters database queries.
+Content-based SQLi returns data directly in responses.
+Blind SQLi uses boolean logic or timing to infer data.
+Prepared statements are the most effective defense.
