@@ -1,0 +1,4 @@
+Directory traversal allows access to files outside the intended directory.
+Attackers abuse path sequences like ../ to escape restrictions.
+Sensitive system and configuration files are common targets.
+Strict path validation prevents traversal attacks.
