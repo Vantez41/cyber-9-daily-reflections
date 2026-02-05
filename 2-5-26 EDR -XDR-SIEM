@@ -1,0 +1,17 @@
+Endpoints → EDR
+All telemetry → XDR
+Everything logs → SIEM
+
+[ Secure Element / TPM ]   ← Root of Trust
+          ↓
+[ Secure / Measured Boot ]
+          ↓
+[ OS + Kernel Protections ]
+          ↓
+[ EDR / XDR Telemetry ]
+          ↓
+[ SIEM Correlation ]
+          ↓
+[ SOAR Automation ]
+          ↓
+[ Zero Trust Access Decisions ]
