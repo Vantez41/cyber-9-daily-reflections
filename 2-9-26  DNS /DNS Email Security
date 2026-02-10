@@ -1,0 +1,90 @@
+# DNS & Email Security + Data Protection (Quick Notes)
+
+## DNS Spoofing
+- Fake DNS response sent to victim
+- Redirects user to malicious IP
+- Usually temporary
+- Mitigation: DNSSEC, DoH/DoT, IDS
+
+---
+
+## DNS Cache Poisoning
+- Malicious DNS record stored in DNS cache
+- Persistent redirection
+- Leads to phishing, malware, MITM
+- Mitigation: DNSSEC, source port randomization
+
+---
+
+## DNSSEC
+- Adds cryptographic trust to DNS
+- Prevents spoofing & poisoning
+- Uses digital signatures
+- Does NOT encrypt traffic
+
+---
+
+## DNSSEC Keys
+### KSK (Key Signing Key)
+- Signs DNSKEY records
+- Rarely rotated
+- Creates chain of trust
+- Hash stored as DS record in parent zone
+
+### ZSK (Zone Signing Key)
+- Signs DNS records (A, MX, TXT)
+- Frequently rotated
+- No parent zone involvement
+
+---
+
+## DMARC
+- Protects against email spoofing
+- Uses SPF + DKIM
+- Enforces policy via DNS TXT record
+
+### DMARC Policies
+- p=none → monitor
+- p=quarantine → spam
+- p=reject → block
+
+---
+
+## SPF
+- Authorizes sending mail servers
+- Prevents sender spoofing
+- Stored in DNS TXT record
+
+---
+
+## DKIM
+- Digitally signs email content
+- Ensures message integrity
+- Uses public/private key pair
+
+---
+
+## Data Loss Prevention (DLP)
+- Prevents sensitive data exfiltration
+- Protects PII, PHI, IP
+
+### DLP Types
+- Network DLP → data in transit
+- Endpoint DLP → USB, copy/paste
+- Cloud DLP → SaaS apps
+
+### Actions
+- Block, alert, encrypt, log
+
+---
+
+## Real-World Chain
+DNS Attack → Fake Site → Credential Theft → Data Exfil Attempt → DLP Block
+
+---
+
+## Exam Memory Hooks
+- DNS redirect → DNS attack
+- Email spoofing → DMARC
+- Stop data leaving → DLP
+- Trust in DNS → DNSSEC
