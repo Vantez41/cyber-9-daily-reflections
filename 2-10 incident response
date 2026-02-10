@@ -1,0 +1,15 @@
+: P I D E R R (Prepare, Identify, Contain, Eradicate, Recover, Review)
+
+Steps:
+
+Preparation: IR plan, tools, training, logging, backups.
+
+Identification: Confirm alerts, scope, impacted systems.
+
+Containment: Isolate affected systems, block IPs, prevent spread.
+
+Eradication: Remove malware, patch vulnerabilities, reset credentials, reimage if needed.
+
+Recovery: Restore from clean backups, monitor systems.
+
+Lessons Learned: Post-incident review, update IR plan, train users
