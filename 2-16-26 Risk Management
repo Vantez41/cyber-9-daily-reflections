@@ -1,0 +1,5 @@
+# Risk = Threat × Vulnerability × Impact
+Asset Value (AV): business importance of an asset (not purchase price)
+Exposure Factor (EF): % of asset value lost when a risk occurs
+Single Loss Expectancy (SLE) = AV × EF
+Annual Loss Expectancy (ALE) = SLE × Annual Rate of Occurrence
